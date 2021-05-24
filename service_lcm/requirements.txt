@@ -1,0 +1,5 @@
+flask
+requests
+pathlib
+kafka-python
+pymongo

@@ -1,0 +1,24 @@
+{
+    "myapp" : {
+        "user_id" : "divyansh",
+        "application_name" : "Application1",
+        "algorithms" : {
+            "algo1" : {
+                "isScheduled" : false,
+                "schedule" : {
+                    "time" : {
+                        "startTimes" : ["00:45:00", "00:45:15"],
+                        "durations" : ["00:00:20",  "00:00:15"]
+                    },
+                    "days" : ["Monday", "Thursday", "Friday", "Saturday", "Sunday"]
+                },
+                "action" : {
+                    "user_display" : "Results",
+                    "sensor_manager" : [{"sensor_id1" : "command1"}],
+                    "notify_user" : []
+                },
+                "place_id" : "GGG_ground_floor_1"
+            }
+        }
+    }
+}

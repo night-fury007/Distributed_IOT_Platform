@@ -1,0 +1,6 @@
+flask
+requests
+paramiko
+pathlib
+kafka-python
+pymongo
